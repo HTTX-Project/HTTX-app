@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.nav {
+  overflow: hidden;
+  height: 75 upx;
+  padding: 35 upx 5 upx;
+  position: relative;
+}
+.banner {
+  width: 92%;
+  margin: 4% auto;
+}
+.banner image {
+    width: 100%;
+    height: 360rpx;
+}
+.main .recommend {
+  width: 92%;
+  margin: 0 auto;
+}
+.main .recommend .re-le {
+    position: relative;
+    padding-bottom: 5rpx;
+}
+.main .recommend .re-le ._h3 {
+      padding: 0;
+      line-height: 80rpx;
+      color: #333;
+      font-size: 36rpx;
+      height: 80rpx;
+      overflow: hidden;
+      margin-bottom: 30rpx;
+}
+.main .recommend .re-le ._h3 ._i {
+        background: url("/static/icon-fire.png") no-repeat;
+        width: 35rpx;
+        height: 40rpx;
+        display: inline-block;
+        vertical-align: top;
+        background-size: cover;
+        position: relative;
+        top: 17rpx;
+        left: 10rpx;
+}
+.main .recommend .pocket-card {
+    width: 100%;
+    /*width: 92%;*/
+    /*margin: 0 auto;*/
+    background-color: #fff;
+    box-shadow: 0 0 13rpx 0 rgba(0, 0, 0, 0.18);
+    border-radius: 5%;
+    background: #f5f5f5 !important;
+    padding-bottom: 45rpx;
+}
+.main .recommend .pocket-card .pocket-intro {
+      padding-left: 30rpx;
+      padding-top: 40rpx;
+      padding-right: 30rpx;
+      overflow: hidden;
+      /*padding-bottom: 40upx;*/
+}
+.main .recommend .pocket-card .pocket-intro ._h4 {
+        padding-left: 7rpx;
+        font-size: 34rpx;
+        font-weight: bold;
+        margin-bottom: 40rpx;
+}
+.main .recommend .pocket-card .pocket-intro .left {
+        display: inline-block;
+        vertical-align: bottom;
+        width: 48%;
+        font-size: 30rpx;
+        color: #E71D36;
+        text-align: center;
+}
+.main .recommend .pocket-card .pocket-intro .left .suz {
+          font-size: 70rpx;
+          font-weight: 600;
+}
+.main .recommend .pocket-card .pocket-intro .left .p {
+          display: block;
+          color: #999;
+          font-size: 26rpx;
+          letter-spacing: 2rpx;
+          padding-top: 5rpx;
+}
+.main .recommend .pocket-card .pocket-intro .right {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 32rpx;
+        margin-left: 155rpx;
+}
+.main .recommend .pocket-card .pocket-intro .right .suz {
+          color: #333;
+          font-size: 58rpx;
+          font-weight: 600;
+}
+.main .recommend .pocket-card .pocket-intro .right .p {
+          display: block;
+          color: #999;
+          font-size: 26rpx;
+          letter-spacing: 2rpx;
+          padding-top: 5rpx;
+}
+.main .recommend .pocket-card .pocket-operation {
+      padding-top: 10%;
+}
+.main .recommend .pocket-card .btn-primary {
+      width: 65%;
+      text-align: center;
+      margin: 0 auto;
+      height: 75rpx;
+      line-height: 75rpx;
+      border-radius: 15rpx;
+      color: #fff;
+      font-size: 30rpx;
+      background: #E71D36;
+      letter-spacing: 2rpx;
+}
+

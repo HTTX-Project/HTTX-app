@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "详情展示",
+  "titleNView": {
+    "type": "transparent"
+  },
+  "usingComponents": {
+    "share": "/components/share",
+    "uni-number-box": "/components/uni-number-box",
+    "yy-video-player": "/components/yy-video-player/yy-video-player"
+  }
+}

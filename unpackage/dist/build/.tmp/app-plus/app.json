@@ -1,0 +1,87 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/product/product",
+    "pages/set/set",
+    "pages/userinfo/userinfo",
+    "pages/cart/cart",
+    "pages/goodPresale/index",
+    "pages/public/login",
+    "pages/login/login",
+    "pages/user/user",
+    "pages/user/userSetting",
+    "pages/my/marketManagement",
+    "pages/my/myIncome",
+    "pages/my/myPerformance",
+    "pages/my/myUpgradeRecord",
+    "pages/detail/detail",
+    "pages/order/order",
+    "pages/money/money",
+    "pages/money/recharge",
+    "pages/money/withdraw",
+    "pages/money/accounts",
+    "pages/order/kuaidi",
+    "pages/my/sharingInvitations",
+    "pages/order/pingjia",
+    "pages/product/ratings",
+    "pages/order/createOrder",
+    "pages/address/address",
+    "pages/address/addressManage",
+    "pages/my/myBill",
+    "pages/money/pay",
+    "pages/notice/noticeDetail",
+    "pages/notice/notice",
+    "pages/category/category",
+    "pages/product/list",
+    "pages/money/paySuccess",
+    "pages/login/register",
+    "pages/login/resetpasswd"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#f8f8f8"
+  },
+  "tabBar": {
+    "color": "#C0C4CC",
+    "selectedColor": "#fa436a",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tab-home.png",
+        "selectedIconPath": "static/tab-home-current.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "iconPath": "static/tab-cate.png",
+        "selectedIconPath": "static/tab-cate-current.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/tab-cart.png",
+        "selectedIconPath": "static/tab-cart-current.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/tab-my.png",
+        "selectedIconPath": "static/tab-my-current.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "奇异时光",
+  "compilerVersion": "2.5.1",
+  "usingComponents": {}
+}

@@ -1,0 +1,1 @@
+<view class="data-v-a8be86c6"><view class="qr_box data-v-a8be86c6"><image class="qr_logo data-v-a8be86c6" src="/static/temp/logo.png"></image></view><text class="qr_text data-v-a8be86c6">邀请新人请扫描下方二维码</text><view class="qr_box data-v-a8be86c6"><view class="qr_qr data-v-a8be86c6"><image class="qr_img data-v-a8be86c6" src="{{url+''+img}}"></image></view></view></view>

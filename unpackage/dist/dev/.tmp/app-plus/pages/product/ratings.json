@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "全部评价",
+  "usingComponents": {
+    "uni-evaluate": "/components/xiujun-evaluate/uni-evaluate"
+  }
+}

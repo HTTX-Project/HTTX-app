@@ -1,0 +1,1 @@
+<view class="content"><uni-evaluate vue-id="1" list-data="{{commentList}}" rate="{{rateData}}" bind:__l="__l"></uni-evaluate></view>

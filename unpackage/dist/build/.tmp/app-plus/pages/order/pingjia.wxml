@@ -1,0 +1,1 @@
+<view class="container iphone"><my-issue vue-id="1" score="{{0}}" data-event-opts="{{[['^submit',[['onSubmit']]]]}}" bind:submit="__e" bind:__l="__l"></my-issue></view>

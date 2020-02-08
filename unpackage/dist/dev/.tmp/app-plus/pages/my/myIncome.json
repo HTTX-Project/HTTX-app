@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的收益",
+  "usingComponents": {
+    "unio2o-tab": "/pages/my/components/tab/tab",
+    "sl-filter": "/components/songlazy-sl-filter/sl-filter/sl-filter",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni"
+  }
+}

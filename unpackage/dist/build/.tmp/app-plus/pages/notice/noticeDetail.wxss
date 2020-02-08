@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+/* pages/bulletinDetails/index.wxss */
+.list-con {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 45rpx;
+}
+.list-con-title {
+  font-weight: bold;
+  font-size: 38rpx;
+  margin: 20rpx 0;
+}
+.list-con-date {
+  font-size: 28rpx;
+  color: #999;
+  margin-bottom: 20rpx;
+}
+.list-con-main {
+  color: #333;
+  font-size: 30rpx;
+  line-height: 45rpx;
+}
+.img {
+  display: inline-block;
+  width: 100%;
+}
+.ss-con {
+  display: inline-block;
+  padding: 0 3%;
+  box-sizing: border-box;
+  margin-top: 6%;
+  line-height: 35rpx;
+  font-size: 32uox;
+  color: #333;
+  text-indent: 10rpx;
+}
+

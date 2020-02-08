@@ -1,0 +1,1 @@
+<view class="list-con"><view class="list-con-title">{{noticeInfo.TITLE}}</view><view class="list-con-date">{{noticeInfo.INSERT_DATE}}</view><view class="list-con-date ss-con">{{noticeInfo.CONTENT}}</view><image class="img" mode="widthFix" src="{{url+''+noticeInfo.PATH}}"></image></view>

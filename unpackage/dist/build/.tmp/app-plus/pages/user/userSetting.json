@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "个人资料",
+  "usingComponents": {
+    "unio2o-modal": "/pages/user/modal",
+    "lausir-code-dialog": "/components/lausir-codedialog/lausir-codedialog"
+  }
+}

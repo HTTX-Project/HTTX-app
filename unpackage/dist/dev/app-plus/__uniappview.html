@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"]::-webkit-search-cancel-button {
+                display: none;
+            }
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"奇异时光","entryPagePath":"pages/index/index.html","page":{"pages/index/index.html":{"window":{"titleNView":{"type":"transparent","titleText":"奇艺时光","titleColor":"#555"},"usingComponents":{}}},"pages/product/product.html":{"window":{"navigationBarTitleText":"详情展示","titleNView":{"type":"transparent"},"usingComponents":{"share":"/components/share","uni-number-box":"/components/uni-number-box","yy-video-player":"/components/yy-video-player/yy-video-player"}}},"pages/set/set.html":{"window":{"navigationBarTitleText":"设置","usingComponents":{}}},"pages/userinfo/userinfo.html":{"window":{"navigationBarTitleText":"修改资料","usingComponents":{}}},"pages/cart/cart.html":{"window":{"navigationBarTitleText":"购物车","usingComponents":{"uni-number-box":"/components/uni-number-box"}}},"pages/goodPresale/index.html":{"window":{"navigationBarTitleText":"预售","usingComponents":{}}},"pages/public/login.html":{"window":{"navigationBarTitleText":"","navigationStyle":"custom","titleNView":false,"animationType":"slide-in-bottom","usingComponents":{}}},"pages/login/login.html":{"window":{"navigationBarTitleText":"","navigationStyle":"custom","titleNView":false,"animationType":"slide-in-bottom","usingComponents":{}}},"pages/user/user.html":{"window":{"navigationBarTitleText":"我的","bounce":"none","titleNView":{"type":"transparent","buttons":[{"fontSrc":"/static/yticon.ttf","text":"","fontSize":"24","color":"#303133","width":"46px","background":"rgba(0,0,0,0)"},{"fontSrc":"/static/yticon.ttf","text":"","fontSize":"28","color":"#303133","background":"rgba(0,0,0,0)","redDot":true}]},"usingComponents":{"list-cell":"/components/mix-list-cell"}}},"pages/user/userSetting.html":{"window":{"navigationBarTitleText":"个人资料","usingComponents":{"unio2o-modal":"/pages/user/modal","lausir-code-dialog":"/components/lausir-codedialog/lausir-codedialog"}}},"pages/my/marketManagement.html":{"window":{"navigationBarTitleText":"市场管理","usingComponents":{}}},"pages/my/myIncome.html":{"window":{"navigationBarTitleText":"我的收益","usingComponents":{"unio2o-tab":"/pages/my/components/tab/tab","sl-filter":"/components/songlazy-sl-filter/sl-filter/sl-filter","mescroll-uni":"/components/mescroll-uni/mescroll-uni"}}},"pages/my/myPerformance.html":{"window":{"navigationBarTitleText":"业绩统计","usingComponents":{}}},"pages/my/myUpgradeRecord.html":{"window":{"navigationBarTitleText":"升级记录","usingComponents":{}}},"pages/detail/detail.html":{"window":{"navigationBarTitleText":"","titleNView":{"type":"transparent"},"usingComponents":{"share":"/components/share"}}},"pages/order/order.html":{"window":{"navigationBarTitleText":"我的订单","bounce":"none","usingComponents":{"uni-load-more":"/components/uni-load-more/uni-load-more","empty":"/components/empty"}}},"pages/money/money.html":{"window":{"navigationBarTitleText":"我的钱包","usingComponents":{}}},"pages/money/recharge.html":{"window":{"navigationBarTitleText":"充值","usingComponents":{}}},"pages/money/withdraw.html":{"window":{"navigationBarTitleText":"提现","usingComponents":{}}},"pages/money/accounts.html":{"window":{"navigationBarTitleText":"转账","usingComponents":{}}},"pages/order/kuaidi.html":{"window":{"navigationBarTitleText":"物流查询","usingComponents":{}}},"pages/my/sharingInvitations.html":{"window":{"navigationBarTitleText":"分享","usingComponents":{}}},"pages/order/pingjia.html":{"window":{"navigationBarTitleText":"评价","usingComponents":{"my-issue":"/components/myIssue/myIssue"}}},"pages/product/ratings.html":{"window":{"navigationBarTitleText":"全部评价","usingComponents":{"uni-evaluate":"/components/xiujun-evaluate/uni-evaluate"}}},"pages/order/createOrder.html":{"window":{"navigationBarTitleText":"创建订单","usingComponents":{}}},"pages/address/address.html":{"window":{"navigationBarTitleText":"收货地址","usingComponents":{}}},"pages/address/addressManage.html":{"window":{"navigationBarTitleText":"","usingComponents":{"mpvue-city-picker":"/components/mpvue-citypicker/mpvueCityPicker"}}},"pages/my/myBill.html":{"window":{"navigationBarTitleText":"我的账单","usingComponents":{"unio2o-tab":"/pages/my/components/tab/tab","sl-filter":"/components/songlazy-sl-filter/sl-filter/sl-filter","mescroll-uni":"/components/mescroll-uni/mescroll-uni"}}},"pages/money/pay.html":{"window":{"navigationBarTitleText":"支付","usingComponents":{}}},"pages/notice/noticeDetail.html":{"window":{"navigationBarTitleText":"咨询详情","usingComponents":{}}},"pages/notice/notice.html":{"window":{"navigationBarTitleText":"通知","usingComponents":{}}},"pages/category/category.html":{"window":{"navigationBarTitleText":"分类","bounce":"none","usingComponents":{}}},"pages/product/list.html":{"window":{"enablePullDownRefresh":true,"navigationBarTitleText":"商品列表","usingComponents":{"uni-load-more":"/components/uni-load-more/uni-load-more"}}},"pages/money/paySuccess.html":{"window":{"navigationBarTitleText":"支付成功","titleNView":false,"animationType":"slide-in-bottom","usingComponents":{}}},"pages/login/register.html":{"window":{"navigationBarTitleText":"注册账号","navigationBarBackgroundColor":"#f06c7a","navigationBarTextStyle":"white","bounce":"none","softinputNavBar":"none","usingComponents":{}}},"pages/login/resetpasswd.html":{"window":{"navigationBarTitleText":"重置密码","navigationBarBackgroundColor":"#f06c7a","navigationBarTextStyle":"white","bounce":"none","softinputNavBar":"none","usingComponents":{}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#FFFFFF","backgroundColor":"#f8f8f8"}},"tabBar":{"color":"#C0C4CC","selectedColor":"#fa436a","backgroundColor":"#ffffff","borderStyle":"black","list":[{"pagePath":"pages/index/index.html","iconPath":"static/tab-home.png","selectedIconPath":"static/tab-home-current.png","text":"首页"},{"pagePath":"pages/category/category.html","iconPath":"static/tab-cate.png","selectedIconPath":"static/tab-cate-current.png","text":"分类"},{"pagePath":"pages/cart/cart.html","iconPath":"static/tab-cart.png","selectedIconPath":"static/tab-cart-current.png","text":"购物车"},{"pagePath":"pages/user/user.html","iconPath":"static/tab-my.png","selectedIconPath":"static/tab-my-current.png","text":"我的"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/index/index","pages/product/product","pages/set/set","pages/userinfo/userinfo","pages/cart/cart","pages/goodPresale/index","pages/public/login","pages/login/login","pages/user/user","pages/user/userSetting","pages/my/marketManagement","pages/my/myIncome","pages/my/myPerformance","pages/my/myUpgradeRecord","pages/detail/detail","pages/order/order","pages/money/money","pages/money/recharge","pages/money/withdraw","pages/money/accounts","pages/order/kuaidi","pages/my/sharingInvitations","pages/order/pingjia","pages/product/ratings","pages/order/createOrder","pages/address/address","pages/address/addressManage","pages/my/myBill","pages/money/pay","pages/notice/noticeDetail","pages/notice/notice","pages/category/category","pages/product/list","pages/money/paySuccess","pages/login/register","pages/login/resetpasswd"],"nvueCompiler":"uni-app","renderer":"auto","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.5.1","usingComponents":{}}
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
+            };
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

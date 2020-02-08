@@ -1,0 +1,1 @@
+<view class="data-v-11007010"><view class="qr_box data-v-11007010"><image class="qr_logo data-v-11007010" src="/static/temp/logo.png"></image></view><text class="qr_text data-v-11007010">邀请新人请扫描下方二维码</text><view class="qr_box data-v-11007010"><view class="qr_qr data-v-11007010"><image class="qr_img data-v-11007010" src="{{url+''+img}}"></image></view></view></view>
